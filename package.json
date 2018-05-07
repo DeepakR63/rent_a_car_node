@@ -1,0 +1,30 @@
+{
+  "name": "dealernode",
+  "version": "1.0.0",
+  "description": "Dealer module back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepakR63/rent_a_car_node.git"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepakR63/rent_a_car_node/issues"
+  },
+  "homepage": "https://github.com/DeepakR63/rent_a_car_node#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.7",
+    "mongoose": "^5.0.15",
+    "validator": "^9.4.1"
+  }
+}
